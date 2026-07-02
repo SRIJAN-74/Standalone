@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "moduleResolution": "node",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
     "target": "ES2020",
-    "esModuleInterop": true
+    "esModuleInterop": true,
+    "lib": ["esnext", "dom"],
+    "types": ["node"],
+    "skipLibCheck": true
   }
+  ,
+  "exclude": ["eventhub_discovery", "node_modules"]
 }

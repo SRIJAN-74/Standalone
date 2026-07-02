@@ -1,4 +1,11 @@
 import { Page, Locator } from '@playwright/test';
+export {
+  EventHubLoginPage,
+  EventHubEventListPage,
+  EventHubEventDetailsPage,
+  EventHubBookingPage,
+  EventHubUserProfilePage
+} from './eventhub.locator';
 
 export class TestPage {
   readonly page: Page;

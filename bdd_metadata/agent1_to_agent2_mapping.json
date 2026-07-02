@@ -1,0 +1,10 @@
+{
+  "agent1_json": "eventhub_discovery/eventhub_functionalities.json",
+  "generated_feature": "features/test.feature",
+  "mappings": [
+    { "functionality_id": "auth_login", "feature": "features/test.feature", "scenarios": ["User successfully logs in with valid credentials","User attempts login with empty credentials"] },
+    { "functionality_id": "event_list", "feature": "features/test.feature", "scenarios": ["Logged-in user views list of events"] },
+    { "functionality_id": "event_details", "feature": "features/test.feature", "scenarios": ["User views event details from list","User opens booking form from event details"] }
+  ],
+  "generatedAt": "2026-07-01T00:00:00Z"
+}

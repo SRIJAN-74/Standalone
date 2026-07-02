@@ -1,0 +1,166 @@
+[2026-06-23T06:12:13.236Z] 
+[2026-06-23T06:12:13.244Z] ═════════════════════════════════════════════════════════════
+[2026-06-23T06:12:13.246Z]          AGENT 1: EventHub Discovery & Locator Extraction
+[2026-06-23T06:12:13.260Z] ═════════════════════════════════════════════════════════════
+[2026-06-23T06:12:13.265Z] 
+[2026-06-23T06:12:13.267Z] PHASE 1: Initialization & Setup
+[2026-06-23T06:12:13.275Z] ────────────────────────────────────────────────────────────
+[2026-06-23T06:12:13.279Z] Launching Chromium browser...
+[2026-06-23T06:12:14.385Z] ✓ Browser launched
+[2026-06-23T06:12:14.389Z] Creating browser context (1280x720)...
+[2026-06-23T06:12:14.420Z] ✓ Context created
+[2026-06-23T06:12:15.076Z] ✓ Page created with 30s timeout
+[2026-06-23T06:12:15.089Z] 
+[2026-06-23T06:12:15.096Z] Navigating to EventHub application...
+[2026-06-23T06:12:24.698Z] ✓ Navigated to https://eventhub.rahulshettyacademy.com/
+[2026-06-23T06:12:24.723Z]   Title: EventHub — Discover & Book Events
+[2026-06-23T06:12:24.726Z]   URL: https://eventhub.rahulshettyacademy.com/login
+[2026-06-23T06:12:25.193Z] ✓ Screenshot captured: 01_landing_page.png
+[2026-06-23T06:12:25.200Z] 
+[2026-06-23T06:12:25.202Z] Analyzing landing page structure...
+[2026-06-23T06:12:25.218Z]   Page size: 11.89KB
+[2026-06-23T06:12:25.251Z] ✓ Login button found on landing page
+[2026-06-23T06:12:25.253Z] 
+[2026-06-23T06:12:25.254Z] PHASE 2: Authentication Flow Analysis
+[2026-06-23T06:12:25.256Z] ────────────────────────────────────────────────────────────
+[2026-06-23T06:12:25.281Z] ✓ Login button found: button:has-text("Sign In")
+[2026-06-23T06:12:25.852Z] ✓ Screenshot captured: 02_login_page.png
+[2026-06-23T06:12:25.856Z]   Current page: https://eventhub.rahulshettyacademy.com/login
+[2026-06-23T06:12:25.859Z] 
+[2026-06-23T06:12:25.872Z] Extracting login form elements...
+[2026-06-23T06:12:25.886Z] ✓ Email input found: input[type="email"]
+[2026-06-23T06:12:25.900Z] ✓ Password input found: input[type="password"]
+[2026-06-23T06:12:25.909Z] ✓ Sign In button found: button:has-text("Sign In")
+[2026-06-23T06:12:25.911Z] 
+[2026-06-23T06:12:25.913Z] PHASE 2.4: Performing Login Test
+[2026-06-23T06:12:25.915Z] ────────────────────────────────────────────────────────────
+[2026-06-23T06:12:25.916Z] Test credentials: manish123@gmail.com / Manish9@@
+[2026-06-23T06:12:25.920Z] Filling email field...
+[2026-06-23T06:12:25.997Z] ✓ Email filled: manish123@gmail...
+[2026-06-23T06:12:25.998Z] Filling password field...
+[2026-06-23T06:12:26.039Z] ✓ Password filled
+[2026-06-23T06:12:26.044Z] Clicking Sign In button...
+[2026-06-23T06:12:29.398Z] ✓ Screenshot captured: 03_post_login_page.png
+[2026-06-23T06:12:29.428Z] ✓ After login - URL: https://eventhub.rahulshettyacademy.com/
+[2026-06-23T06:12:29.432Z] ✓ After login - Title: EventHub — Discover & Book Events
+[2026-06-23T06:12:29.465Z] ✓ Login SUCCESS - User authenticated
+[2026-06-23T06:12:29.473Z] 
+[2026-06-23T06:12:29.477Z] PHASE 3: Post-Login Application Exploration
+[2026-06-23T06:12:29.480Z] ────────────────────────────────────────────────────────────
+[2026-06-23T06:12:29.507Z] ✓ Event listings found
+[2026-06-23T06:12:30.608Z] ✓ Screenshot captured: 04_event_list_page.png
+[2026-06-23T06:12:30.626Z] 
+[2026-06-23T06:12:30.628Z] PHASE 4: Error Scenario Testing
+[2026-06-23T06:12:30.630Z] ────────────────────────────────────────────────────────────
+[2026-06-23T06:12:30.633Z] Testing empty credentials error...
+[2026-06-23T06:12:32.241Z] 
+[2026-06-23T06:12:32.243Z] PHASE 5: Generating Output Files
+[2026-06-23T06:12:32.247Z] ────────────────────────────────────────────────────────────
+[2026-06-23T06:12:32.252Z] ✓ JSON output: C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.json
+[2026-06-23T06:12:32.259Z] ✓ Markdown output: C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.md
+[2026-06-23T06:12:32.265Z] ✓ Summary report: C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_locators_summary.txt
+[2026-06-23T06:12:32.268Z] 
+[2026-06-23T06:12:32.270Z] ═════════════════════════════════════════════════════════════
+[2026-06-23T06:12:32.271Z]                     DISCOVERY COMPLETE ✓
+[2026-06-23T06:12:32.275Z] ═════════════════════════════════════════════════════════════
+[2026-06-23T06:12:32.278Z] 
+[2026-06-23T06:12:32.284Z] Summary:
+[2026-06-23T06:12:32.285Z]   ✓ Pages discovered: 5
+[2026-06-23T06:12:32.288Z]   ✓ Locators extracted: 3 (login form)
+[2026-06-23T06:12:32.290Z]   ✓ Screenshots captured: 4
+[2026-06-23T06:12:32.297Z]   ✓ Login flow tested: Yes
+[2026-06-23T06:12:32.299Z]   ✓ Error scenarios tested: Yes
+[2026-06-23T06:12:32.304Z] 
+[2026-06-23T06:12:32.306Z] Output Files:
+[2026-06-23T06:12:32.313Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.json
+[2026-06-23T06:12:32.320Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.md
+[2026-06-23T06:12:32.325Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_locators_summary.txt
+[2026-06-23T06:12:32.333Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\logs\discovery_log.txt
+[2026-06-23T06:12:32.335Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\screenshots/ (4 screenshots)
+[2026-06-23T06:12:32.339Z] 
+[2026-06-23T06:12:32.349Z] Ready for Agent 2: Feature Generation
+[2026-06-23T06:12:32.356Z] 
+[2026-06-23T06:12:34.286Z] Browser closed - Discovery session ended
+[2026-07-01T06:33:48.319Z] 
+[2026-07-01T06:33:48.327Z] ═════════════════════════════════════════════════════════════
+[2026-07-01T06:33:48.330Z]          AGENT 1: EventHub Discovery & Locator Extraction
+[2026-07-01T06:33:48.332Z] ═════════════════════════════════════════════════════════════
+[2026-07-01T06:33:48.334Z] 
+[2026-07-01T06:33:48.336Z] PHASE 1: Initialization & Setup
+[2026-07-01T06:33:48.338Z] ────────────────────────────────────────────────────────────
+[2026-07-01T06:33:48.340Z] Launching Chromium browser...
+[2026-07-01T06:33:48.948Z] ✓ Browser launched
+[2026-07-01T06:33:48.977Z] Creating browser context (1280x720)...
+[2026-07-01T06:33:49.046Z] ✓ Context created
+[2026-07-01T06:33:49.622Z] ✓ Page created with 30s timeout
+[2026-07-01T06:33:49.623Z] 
+[2026-07-01T06:33:49.624Z] Navigating to EventHub application...
+[2026-07-01T06:34:00.408Z] ✓ Navigated to https://eventhub.rahulshettyacademy.com/
+[2026-07-01T06:34:00.928Z]   Title: EventHub — Discover & Book Events
+[2026-07-01T06:34:00.930Z]   URL: https://eventhub.rahulshettyacademy.com/login
+[2026-07-01T06:34:01.445Z] ✓ Screenshot captured: 01_landing_page.png
+[2026-07-01T06:34:01.446Z] 
+[2026-07-01T06:34:01.451Z] Analyzing landing page structure...
+[2026-07-01T06:34:01.471Z]   Page size: 11.66KB
+[2026-07-01T06:34:01.510Z] ✓ Login button found on landing page
+[2026-07-01T06:34:01.513Z] 
+[2026-07-01T06:34:01.514Z] PHASE 2: Authentication Flow Analysis
+[2026-07-01T06:34:01.516Z] ────────────────────────────────────────────────────────────
+[2026-07-01T06:34:01.529Z] ✓ Login button found: button:has-text("Sign In")
+[2026-07-01T06:34:02.073Z] ✓ Screenshot captured: 02_login_page.png
+[2026-07-01T06:34:02.075Z]   Current page: https://eventhub.rahulshettyacademy.com/login
+[2026-07-01T06:34:02.077Z] 
+[2026-07-01T06:34:02.078Z] Extracting login form elements...
+[2026-07-01T06:34:02.092Z] ✓ Email input found: input[type="email"]
+[2026-07-01T06:34:02.103Z] ✓ Password input found: input[type="password"]
+[2026-07-01T06:34:02.112Z] ✓ Sign In button found: button:has-text("Sign In")
+[2026-07-01T06:34:02.113Z] 
+[2026-07-01T06:34:02.116Z] PHASE 2.4: Performing Login Test
+[2026-07-01T06:34:02.117Z] ────────────────────────────────────────────────────────────
+[2026-07-01T06:34:02.118Z] Test credentials: manish123@gmail.com / Manish9@@
+[2026-07-01T06:34:02.120Z] Filling email field...
+[2026-07-01T06:34:02.208Z] ✓ Email filled: manish123@gmail...
+[2026-07-01T06:34:02.209Z] Filling password field...
+[2026-07-01T06:34:02.252Z] ✓ Password filled
+[2026-07-01T06:34:02.255Z] Clicking Sign In button...
+[2026-07-01T06:34:05.490Z] ✓ Screenshot captured: 03_post_login_page.png
+[2026-07-01T06:34:05.497Z] ✓ After login - URL: https://eventhub.rahulshettyacademy.com/
+[2026-07-01T06:34:05.499Z] ✓ After login - Title: EventHub — Discover & Book Events
+[2026-07-01T06:34:05.517Z] ✓ Login SUCCESS - User authenticated
+[2026-07-01T06:34:05.518Z] 
+[2026-07-01T06:34:05.520Z] PHASE 3: Post-Login Application Exploration
+[2026-07-01T06:34:05.521Z] ────────────────────────────────────────────────────────────
+[2026-07-01T06:34:05.529Z] ✓ Event listings found
+[2026-07-01T06:34:06.383Z] ✓ Screenshot captured: 04_event_list_page.png
+[2026-07-01T06:34:06.413Z] 
+[2026-07-01T06:34:06.424Z] PHASE 4: Error Scenario Testing
+[2026-07-01T06:34:06.429Z] ────────────────────────────────────────────────────────────
+[2026-07-01T06:34:06.431Z] Testing empty credentials error...
+[2026-07-01T06:34:08.294Z] 
+[2026-07-01T06:34:08.295Z] PHASE 5: Generating Output Files
+[2026-07-01T06:34:08.297Z] ────────────────────────────────────────────────────────────
+[2026-07-01T06:34:08.300Z] ✓ JSON output: C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.json
+[2026-07-01T06:34:08.307Z] ✓ Markdown output: C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.md
+[2026-07-01T06:34:08.310Z] ✓ Summary report: C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_locators_summary.txt
+[2026-07-01T06:34:08.311Z] 
+[2026-07-01T06:34:08.313Z] ═════════════════════════════════════════════════════════════
+[2026-07-01T06:34:08.316Z]                     DISCOVERY COMPLETE ✓
+[2026-07-01T06:34:08.318Z] ═════════════════════════════════════════════════════════════
+[2026-07-01T06:34:08.324Z] 
+[2026-07-01T06:34:08.326Z] Summary:
+[2026-07-01T06:34:08.327Z]   ✓ Pages discovered: 5
+[2026-07-01T06:34:08.329Z]   ✓ Locators extracted: 3 (login form)
+[2026-07-01T06:34:08.330Z]   ✓ Screenshots captured: 4
+[2026-07-01T06:34:08.332Z]   ✓ Login flow tested: Yes
+[2026-07-01T06:34:08.334Z]   ✓ Error scenarios tested: Yes
+[2026-07-01T06:34:08.337Z] 
+[2026-07-01T06:34:08.339Z] Output Files:
+[2026-07-01T06:34:08.341Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.json
+[2026-07-01T06:34:08.342Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_functionalities.md
+[2026-07-01T06:34:08.346Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\eventhub_locators_summary.txt
+[2026-07-01T06:34:08.348Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\logs\discovery_log.txt
+[2026-07-01T06:34:08.349Z]   • C:\Users\DELL\OneDrive\Desktop\Playwright\PlaywrightProject\eventhub_discovery\screenshots/ (4 screenshots)
+[2026-07-01T06:34:08.351Z] 
+[2026-07-01T06:34:08.353Z] Ready for Agent 2: Feature Generation
+[2026-07-01T06:34:08.355Z] 
+[2026-07-01T06:34:08.590Z] Browser closed - Discovery session ended

@@ -1,14 +1,15 @@
-import { Before, After } from '@cucumber/cucumber';
+import { Before, After, setDefaultTimeout } from '@cucumber/cucumber';
 import { chromium } from 'playwright';
 import { CustomWorld } from './world';
 import { PageManager } from '../locators/POManager';
+
+setDefaultTimeout(60 * 1000);
 
 Before(async function (this: CustomWorld) {
   this.browser = await chromium.launch({ headless: false });
   this.context = await this.browser.newContext();
   this.page = await this.context.newPage();
-   this.pageLocator = new PageManager(this.page);
-   this.page.goto('https://eventhub.rahulshettyacademy.com/')
+  this.pageLocator = new PageManager(this.page);
 });
 
 After(async function (this: CustomWorld) {

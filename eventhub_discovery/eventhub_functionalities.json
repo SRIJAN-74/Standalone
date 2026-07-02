@@ -1,0 +1,32 @@
+{
+  "url": "https://eventhub.rahulshettyacademy.com/",
+  "discoveredAt": "2026-07-01T06:34:08.299Z",
+  "authRequired": true,
+  "authType": "email_password",
+  "pagesDiscovered": [
+    "landing",
+    "login",
+    "event_list",
+    "event_details",
+    "booking"
+  ],
+  "loginCredentials": {
+    "email": "manish123@gmail.com",
+    "password": "Manish9@@"
+  },
+  "locatorsExtracted": {
+    "emailFieldSelector": "input[type=\"email\"]",
+    "passwordFieldSelector": "input[type=\"password\"]",
+    "signInButtonSelector": "button:has-text(\"Sign In\")"
+  },
+  "elementsAnalyzed": 20,
+  "screenshotsCaptured": 4,
+  "discoveryPhases": [
+    "Initialization",
+    "Landing page analysis",
+    "Login flow extraction",
+    "Post-login exploration",
+    "Error scenario testing",
+    "Output generation"
+  ]
+}

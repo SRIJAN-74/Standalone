@@ -2,7 +2,9 @@
   "name": "playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "agents:sequential": "node booking_probe.js && node booking_probe2.js && node booking_probe3.js && node booking_probe4.js && node eventhub_discovery/discover.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

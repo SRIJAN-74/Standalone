@@ -1,0 +1,46 @@
+EventHub Discovery Summary
+========================================
+Discovery Date: 2026-07-01T06:34:08.308Z
+
+Pages Discovered: 5
+- Landing Page
+- Login Page
+- Event List
+- Event Details
+- Booking Page
+
+Elements Extracted:
+- Email Input: ✓
+- Password Input: ✓
+- Sign In Button: ✓
+- Event Cards: ✓
+- Event Links: ✓
+- Booking Button: ✓
+
+Screenshots: 4
+  - 01_landing_page.png
+  - 02_login_page.png
+  - 03_post_login_page.png
+  - 04_event_list_page.png
+
+Login Test Status: EXECUTED
+- Credentials tested: manish123@gmail.com / Manish9@@
+- Navigation verified
+- Post-login page analyzed
+
+Error Scenarios: TESTED
+- Empty credentials handling verified
+- Error messages captured
+- Validation behavior documented
+
+Locator Stability:
+- Rank 1 (Most Stable): data-testid, aria-label, role
+- Rank 2 (Stable): CSS classes, standard selectors
+- Rank 3 (Fragile): Text content, XPath
+
+Output Files Generated:
+- eventhub_functionalities.json
+- eventhub_functionalities.md
+- eventhub_locators_summary.txt
+- Screenshots (4 files)
+- discovery_log.txt

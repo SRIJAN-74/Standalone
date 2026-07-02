@@ -1,0 +1,20 @@
+{
+  "locators": {
+    "email_input": {
+      "selector": "input[type=\"email\"]",
+      "source": "eventhub_functionalities.json",
+      "stability": 2
+    },
+    "password_input": {
+      "selector": "input[type=\"password\"]",
+      "source": "eventhub_functionalities.json",
+      "stability": 2
+    },
+    "signin_button": {
+      "selector": "button:has-text(\"Sign In\")",
+      "source": "eventhub_functionalities.json",
+      "stability": 2
+    }
+  },
+  "generatedAt": "2026-07-01T00:00:00Z"
+}

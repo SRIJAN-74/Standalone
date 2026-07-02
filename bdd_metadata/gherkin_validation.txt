@@ -1,0 +1,10 @@
+GHERKIN VALIDATION REPORT
+Generated: 2026-07-01T00:00:00Z
+
+Files validated:
+- features/test.feature (5 scenarios)
+
+Result: SYNTAX OK
+
+Notes:
+- Scenarios were generated conservatively from Agent 1 JSON. Review for additional edge cases if desired.
