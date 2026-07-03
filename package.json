@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "agents:sequential": "node booking_probe.js && node booking_probe2.js && node booking_probe3.js && node booking_probe4.js && node eventhub_discovery/discover.js"
+    "agents:sequential": "node booking_probe.js && node booking_probe2.js && node booking_probe3.js && node booking_probe4.js && node eventhub_discovery/discover.js",
+    "test:cucumber": "npx cucumber-js",
+    "report:cucumber": "node scripts/parse-cucumber-report.js"
   },
   "keywords": [],
   "author": "",
